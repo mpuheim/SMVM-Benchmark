@@ -100,7 +100,6 @@ namespace SparseVectorMatrixMultiply.Benchmarks
                 mOperations[m] = 0;
             }
             //run benchmark
-            double currentTime;
             do
             {
                 //get test matrix & vector

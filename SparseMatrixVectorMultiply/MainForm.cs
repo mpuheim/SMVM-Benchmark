@@ -368,7 +368,7 @@ namespace SparseVectorMatrixMultiply
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 chartForm = new HiResChartForm();
-                chartForm.DrawChart(sparcityBenchmark, "size");
+                chartForm.DrawChart(sizeBenchmark, "size");
                 chartForm.HiResolutionChart.SaveImage(saveFileDialog1.FileName, ChartImageFormat.Png);
             }
         }
