@@ -64,7 +64,7 @@ namespace SparseVectorMatrixMultiply
                 case "size":
                     HiResChart.ChartAreas[0].AxisX.Title = "Size";
                     min = benchmark.methodStats[0].step[0].matrixDimension;
-                    max = benchmark.methodStats[t].step[t].matrixDimension;
+                    max = benchmark.methodStats[0].step[t].matrixDimension;
                     break;
                 case "sparcity":
                     HiResChart.ChartAreas[0].AxisX.Title = "Sparcity (%)";

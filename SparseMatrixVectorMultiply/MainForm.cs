@@ -232,6 +232,7 @@ namespace SparseVectorMatrixMultiply
             int dimension = (int)numericUpDown4.Value;
             double time = 1000*(double)numericUpDown5.Value;
             SparcityChart.ChartAreas[0].AxisX.Minimum = (double)numericUpDown1.Value;
+            SparcityChart.ChartAreas[0].AxisX.Maximum = Double.NaN;
             //initialize benchmark
             sparcityBenchmark = new Benchmark();
             sparcityBenchmark.init(sparcityInitial, sparcityStep, sparcityFinal, dimension, time);
@@ -267,6 +268,7 @@ namespace SparseVectorMatrixMultiply
             double sparcity = (double)numericUpDown10.Value / 100;
             double time = 1000 * (double)numericUpDown6.Value;
             SizeChart.ChartAreas[0].AxisX.Minimum = sizeInitial;
+            SizeChart.ChartAreas[0].AxisX.Maximum = Double.NaN;
             //initialize benchmark
             sizeBenchmark = new Benchmark();
             sizeBenchmark.init(sizeInitial, sizeStep, sizeFinal, sparcity, time);

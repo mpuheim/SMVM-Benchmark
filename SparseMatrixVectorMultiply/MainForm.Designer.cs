@@ -258,6 +258,11 @@
             chartArea1.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             chartArea1.AxisY.Title = "Flops";
             chartArea1.Name = "ChartArea1";
+            chartArea1.Position.Auto = false;
+            chartArea1.Position.Height = 83.28296F;
+            chartArea1.Position.Width = 90F;
+            chartArea1.Position.X = 3F;
+            chartArea1.Position.Y = 13.71704F;
             this.SparcityChart.ChartAreas.Add(chartArea1);
             this.SparcityChart.Enabled = false;
             legend1.Alignment = System.Drawing.StringAlignment.Far;
@@ -601,6 +606,11 @@
             chartArea2.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             chartArea2.AxisY.Title = "Flops";
             chartArea2.Name = "ChartArea1";
+            chartArea2.Position.Auto = false;
+            chartArea2.Position.Height = 83.28296F;
+            chartArea2.Position.Width = 90F;
+            chartArea2.Position.X = 3F;
+            chartArea2.Position.Y = 13.71704F;
             this.SizeChart.ChartAreas.Add(chartArea2);
             this.SizeChart.Enabled = false;
             legend2.Alignment = System.Drawing.StringAlignment.Far;

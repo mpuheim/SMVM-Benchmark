@@ -140,6 +140,8 @@ namespace SparseVectorMatrixMultiply.Benchmarks
             if (sparcityCurrent < sparcityFinal)
             {
                 sparcityCurrent += sparcityStep;
+                if (sparcityCurrent > sparcityFinal)
+                    sparcityCurrent = sparcityFinal;
             }
             else if (dimensionCurrent < dimensionFinal)
             {
